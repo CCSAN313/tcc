@@ -230,15 +230,22 @@ background-color: rgb(0, 255, 0);</string>
     <rect>
      <x>270</x>
      <y>280</y>
-     <width>151</width>
+     <width>161</width>
      <height>16</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 0, 0);</string>
+    <string notr="true">color: rgb(255, 0, 0);</string>
    </property>
    <property name="text">
-    <string/>
+    <string>TextLabel</string>
    </property>
   </widget>
  </widget>
