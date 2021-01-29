@@ -39,8 +39,8 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>230</y>
+     <x>210</x>
+     <y>200</y>
      <width>47</width>
      <height>13</height>
     </rect>
@@ -59,8 +59,8 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>280</y>
+     <x>180</x>
+     <y>250</y>
      <width>91</width>
      <height>16</height>
     </rect>
@@ -79,8 +79,8 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>340</y>
+     <x>180</x>
+     <y>310</y>
      <width>81</width>
      <height>16</height>
     </rect>
@@ -93,14 +93,14 @@
     </font>
    </property>
    <property name="text">
-    <string>USUÁRIO</string>
+    <string>USUARIO</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>160</x>
-     <y>390</y>
+     <x>200</x>
+     <y>360</y>
      <width>61</width>
      <height>16</height>
     </rect>
@@ -120,7 +120,7 @@
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>230</y>
+     <y>200</y>
      <width>271</width>
      <height>20</height>
     </rect>
@@ -133,7 +133,7 @@
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>280</y>
+     <y>250</y>
      <width>151</width>
      <height>20</height>
     </rect>
@@ -146,7 +146,7 @@
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>340</y>
+     <y>310</y>
      <width>151</width>
      <height>20</height>
     </rect>
@@ -159,7 +159,7 @@
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>390</y>
+     <y>360</y>
      <width>151</width>
      <height>20</height>
     </rect>
@@ -172,7 +172,7 @@
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>452</y>
+     <y>460</y>
      <width>81</width>
      <height>31</height>
     </rect>
@@ -190,6 +190,39 @@ background-color: rgb(0, 255, 0);</string>
    </property>
    <property name="text">
     <string>SALVAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>400</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>CONFIRMAR SENHA</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>400</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
    </property>
   </widget>
  </widget>
