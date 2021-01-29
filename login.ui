@@ -4,7 +4,7 @@
  <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
    <rect>
-    <x>0</x> 
+    <x>0</x>
     <y>0</y>
     <width>562</width>
     <height>588</height>
@@ -175,6 +175,7 @@ background-color: rgb(148, 255, 246);</string>
     </property>
    </widget>
   </widget>
+  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
@@ -185,7 +186,6 @@ background-color: rgb(148, 255, 246);</string>
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
